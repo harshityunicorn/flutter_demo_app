@@ -67,11 +67,11 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  void _decrementCounter() {
-    setState(() {
-      _counter--;
-    });
-  }
+  // void _decrementCounter() {
+  //   setState(() {
+  //     _counter--;
+  //   });
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -123,12 +123,12 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Row(
           mainAxisSize: MainAxisSize.min, // important!
           children: [
-            FloatingActionButton(
-              heroTag: 'decrement', // unique tag
-              onPressed: _decrementCounter,
-              tooltip: 'Decrement',
-              child: const Icon(Icons.remove),
-            ),
+            // FloatingActionButton(
+            //   heroTag: 'decrement', // unique tag
+            //   onPressed: _decrementCounter,
+            //   tooltip: 'Decrement',
+            //   child: const Icon(Icons.remove),
+            // ),
             const SizedBox(width: 12),
             FloatingActionButton(
               heroTag: 'increment', // unique tag
